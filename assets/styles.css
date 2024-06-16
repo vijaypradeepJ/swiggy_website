@@ -1,0 +1,98 @@
+
+
+.nav{
+    background-color:whitesmoke;
+    border: 1px solid white;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left:30px;
+    padding-right:60px;
+    
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    float:right;
+    padding-left:70px;
+    text-transform: capitalize;
+    padding-top:20px;
+
+}
+ .others{
+    color: blue;
+
+    
+}
+.item a:hover{
+    color: orangered;
+}
+.logo{
+    width:100px;
+    height:70px;
+    background-color: whitesmoke;
+}
+.header{
+    text-transform: capitalize;
+    display:grid;
+    grid-auto-flow:column;
+  
+}
+.header h2{
+    padding-left:20%;
+}
+.header .select{
+    padding-left:50%;
+    margin-top:25px;
+}
+
+/* food slide */
+.container{
+    display: grid;
+    overflow:auto;
+    grid-auto-flow: column;
+   
+    width:72%;
+    height:30%;
+    margin: auto;
+    margin-top:50px;
+    margin-left:200px;
+
+   
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container img{
+    width:150px;
+    height:200px;
+    translate: 1s;
+    float: left;
+    padding-left:20px;
+   
+    
+    
+}
+.container2{
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+    width:72%;
+    height:30%;
+    margin: auto;
+    margin-top:50px;
+    margin-left:200px;
+}
+.container2 img{
+    width:300px;
+    height: 250px;
+    padding-left: 20px;
+    border-radius:40px ;
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 100px;
+    padding-left:100px;
+    text-align: center;
+}
