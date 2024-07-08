@@ -48,7 +48,7 @@
 }
 
 /* food slide */
-.container{
+.container {
     display: grid;
     overflow:auto;
     grid-auto-flow: column;
@@ -64,6 +64,17 @@
 }
 ::-webkit-scrollbar{
     display: none;
+}
+.select i{
+    border:1px solid black;
+    border-radius:50px;
+    margin-left:10px;
+    height:50%;
+    width:6%;
+    padding-top:4px;
+    padding-left:2px;
+    background-color:#D5DEEF;
+
 }
 .container img{
     width:150px;
@@ -276,6 +287,21 @@
     font-size:small;
     font-family: Arial, Helvetica, sans-serif;
 }
+.select{
+    margin-right:20px;
+}
+.selects i{
+    border:1px solid black;
+    border-radius:50px;
+    margin-left:12px;
+    height:50%;
+    width:3%;
+    padding-top:4px;
+    padding-left:5px;
+    background-color:#D5DEEF;
+    float: right;
+
+}
 .deals{
     display: grid;
     grid-auto-flow: column;
@@ -314,7 +340,7 @@
     margin-top:2rem;
     text-transform: uppercase;
 }
-.input-group , .dishes{
+.input-group{
     width:58%;
     margin: auto;
     margin-top:50px;
@@ -324,6 +350,15 @@
     
     
 }
+.dishes , .footer , .headers ,.card{
+width:58%;
+margin: auto;
+margin-top:50px;
+margin-left:350px;
+border-bottom:20px;
+margin-right: 300px;
+}
+
 .form-floating{
     width:58%;
     margin: auto;
@@ -342,14 +377,11 @@
 .input-group span{
     background-color: #D5DEEF;
 }
-hr{
-    width:45%;
-    margin-top:4rem;
-}
+
 .dishes{
     background-color:#EAEBE7;
 }
-.dish-list{
+.dish-list ,.dishlist2{
     border:1px solid #EAEBE7 ;
     background-color:whitesmoke;
     margin-top:1rem;
@@ -360,10 +392,170 @@ hr{
     color: black;
     text-transform: capitalize;
 }
-.dish-list span{
+.dish-list  span ,.dishlist2 span{
     color: black;
     float:right;
     size:50rem;
     padding-top:0.3rem;
     padding-right:2rem;
+    transition: 0.3s;
 }
+.dish-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:whitesmoke ;
+    display: none;
+
+}
+.dish-list.open ~ .dish-items{
+    display:grid;
+}
+.dishlist2.open ~ .dish-items{
+    display: grid;
+}
+.dish-items.open ~ .span{
+    transform: rotate(-180deg);
+}
+.dish-img{
+    position: relative;
+}
+.dish-img img{
+    width:85%;
+    height:75%;
+    padding-top:30px;
+    object-fit: cover;
+    display: block;
+
+}
+.addbutton button{
+    border:3px solid white;
+    border-radius: 10px;
+    color: green;
+    text-transform: uppercase;
+    width:200%;
+
+}
+.addbutton{
+    position: absolute;
+    top:70%;
+    left:20%;
+
+}
+
+.dish-details h5{
+    color: #032030;
+    text-transform: capitalize;
+
+}
+.dish-details {
+    width: 75%;
+}
+.dish-details #price{
+    color: black;
+    font-weight: bold;
+}
+.dish-details p{
+    color: gray;
+    font-weight: lighter;
+}
+.dish-details  span{
+    color: green;
+
+}
+/*----------footer-------------*/
+.footer{
+    background-color: #D5DEEF;
+
+}
+.license{
+    display: grid;
+    grid-template-columns:auto auto;
+    margin-left:10px;
+}
+.license p{
+    padding-top:5px;
+    color:gray;
+    font-weight: lighter;
+    padding-right:500px;
+    text-transform: capitalize;
+}
+.license img{
+    width:50%;
+    padding-top:10px;
+}
+.location-details{
+    margin-left: 10px;
+}
+.location-details #name{
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.location-details #branch{
+    color: gray;
+    font-weight: lighter;
+    font-size:small;
+    text-transform: capitalize;
+
+}
+.location-details #location{
+    color: gray;
+    font-weight: lighter;
+    font-size:xx-small;
+    text-transform: capitalize;
+}
+.footheader{
+    background-color: #D5DEEF;
+}
+.apps{
+    text-align: center;
+
+}
+.apps p{
+    font-size:medium;
+    font-weight: bolder;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-transform: capitalize;
+
+}
+#len{
+    background-color: red;
+    width: 200px;
+}
+
+/*-------------footer page in index-------------*/
+.footersection{
+    background-color: black;
+    height:50%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.footerdetails img {
+    width: 15%;
+    height:15%;
+    background-color: black;
+    padding-left:90px;
+    margin-top:80px;
+
+}
+.footerdetails #addrs{
+    padding-left: 90px;
+    color: gray;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.footerdetails h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: large;
+
+}
+.footerdetails p{
+    color: gray;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
