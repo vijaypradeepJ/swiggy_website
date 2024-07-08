@@ -40,8 +40,12 @@
 
         </div>
       </div>
-      <div class="headers">
+      <div class="headers " id="move" >
         <h4>deals for you</h4>
+        <div class="selects">
+            <i class="fa fa-arrow-right" id="next"></i>
+            <i class="fa fa-arrow-left" id="prev"></i>
+        </div>
       </div>
       <div class="deals">
             <div class="deal">
@@ -82,11 +86,374 @@
           </center>
           <div class="dishes">
             <div class="dish-list">
-                <p>recomented(18)</p>
+                <p>recomented(18)<span id="arrow-change"><i class="fa-solid fa-chevron-down"></i></span></p>
             </div>
-            <div class="dish-list">
-                <p>briyanis,curries and roti(17) <span>&#8964</span></p>
+            <!---------------recomented dish list ------------>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie supreme</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with <span id="dots">.....</span> <span id="more"></span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/veggie" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
             </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>tandoori paneer</h5>
+                    <p id="price"> &#8377 319</p>
+                    <p><span>&#9733 3.6</span>(98)</p>
+                    <p>Serves 1 | It's our signature. Spiced paneer, crunchy onions & green capsicum, spicy red paprika with delicious tandoori sauce and 100%</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/tandoori paneer" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>margherita</h5>
+                    <p id="price"> &#8377 169</p>
+                    <p><span>&#9733 3.5</span>(193)</p>
+                    <p>Serves 1 | Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! </p> 
+                </div>
+                <div class="dish-img">
+                    <img src="images/marghetia" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>country feast</h5>
+                    <p id="price"> &#8377 319</p>
+                    <p><span>&#9733 4.1</span>(18)</p>
+                   <p>Serves 1 | Loaded with herbed onion & green capsicum, sweet corn, tomato with signature pan sauce and 100% mozzarella cheese. </p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/country feast" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie feast</h5>
+                    <p id="price"> &#8377 259</p>
+                    <p><span>&#9733 3.4</span>(78)</p>
+                    <p>Serves 1 | Herbed onion and green capsicum, juicy sweet corn & 100% mozzarella cheese with flavourful pan sauce (PAN Per/Med-269 Kcal/100g | TnC-274 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), S</p>
+                    </div>
+                <div class="dish-img">
+                    <img src="images/veggie feast" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>triple chicken feast</h5>
+                    <p id="price"> &#8377 409</p>
+                    <p><span>&#9733 4.6</span>(28)</p>
+                    <p>Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with c</p>
+                    </div>
+                <div class="dish-img">
+                    <img src="images/tripl;e chicken" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>chicken supreme</h5>
+                    <p id="price"> &#8377 409</p>
+                    <p><span>&#9733 4.0</span>(47)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/ch" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>chicken tikka</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 4.2</span>(18)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/chicken tikka" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>Loaded bread stix</h5>
+                    <p id="price"> &#8377 169</p>
+                    <p><span>&#9733 4.0</span>(7)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful... <span id="more">more</span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/loaded" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>classic bread stix</h5>
+                    <p id="price"> &#8377 119</p>
+                    <p><span>&#9733 3.7</span>(107)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/classic bread" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>exotica  veggie garlic bread</h5>
+                    <p id="price"> &#8377 179</p>
+                    <p><span>&#9733 3.5</span>(39)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/exotic bread" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>garlic bread spicy supreme</h5>
+                    <p id="price"> &#8377 169</p>
+                    <p><span>&#9733 2.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/graclic bread" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>sprinkled fries</h5>
+                    <p id="price"> &#8377 109</p>
+                    <p><span>&#9733 3.8</span>(7)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/sprinkled fries" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>spicy schezwan pasta chicken</h5>
+                    <p id="price"> &#8377 199</p>
+                    <p><span>&#9733 3.5</span>(3)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/spicy pasta.avif" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>spicy red schezwan pasta </h5>
+                    <p id="price"> &#8377 179</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/spicy red pasta" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>choco volcano</h5>
+                    <p id="price"> &#8377 129</p>
+                    <p><span>&#9733 4.8</span>(17)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/choco valcano" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>tandoori paneer</h5>
+                    <p id="price"> &#8377 279</p>
+                    <p><span>&#9733 3.7</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/tandoori paneer" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>masala keema garlic bread</h5>
+                    <p id="price"> &#8377 189</p>
+                    <p><span>&#9733 3.3</span>(17)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/masala keemr" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>country feast</h5>
+                    <p id="price"> &#8377 179</p>
+                    <p><span>&#9733 3.9</span>(7)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/country feast 2" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items" >
+                <div class="dish-details">
+                    <h5>chicken sausage</h5>
+                    <p id="price"> &#8377 189</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan</p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/chicken sausage" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dishlist2">
+                <p>recomented(18)<span id="arrow-change"><i class="fa-solid fa-chevron-down"></i></span></p>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie supreme</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with <span id="dots">.....</span> <span id="more"></span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/veggie" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie supreme</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with <span id="dots">.....</span> <span id="more"></span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/veggie" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie supreme</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with <span id="dots">.....</span> <span id="more"></span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/veggie" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dish-items">
+                <div class="dish-details">
+                    <h5>veggie supreme</h5>
+                    <p id="price"> &#8377 379</p>
+                    <p><span>&#9733 3.8</span>(37)</p>
+                    <p>Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with <span id="dots">.....</span> <span id="more"></span></p>
+                </div>
+                <div class="dish-img">
+                    <img src="images/veggie" alt="">
+                    <div class="addbutton">
+                        <button>add</button>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+ 
             <div class="dish-list">
                 <p>kebabs platter and starters(17)<span>&#8964</span></p>
             </div>
@@ -112,6 +479,32 @@
                 <p>premium thalis(3)<span>&#8964</span></p>
             </div>
           </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="license">
+                   <img src="images/fssai_final" alt="">
+                   <p>license no.124220180000018</p>
+                </div>
+                <hr>
+                <div class="location-details">
+                    <p id="name">pizza hut</p>
+                    <p id="branch">(outlet:alagapuram pudur)</p>
+                    <p id="location"># plot no 7, Ground floor, Brindavan main Road, Alagapuram, Salem - 636016</p>
+                    <hr>
+                </div>
+                <div class="apps">
+                    <p>For better experience, download the Swiggy app now</p>
+                    <div class="applogo">
+                        <img src="images/play_store.avif" alt="">
+                        <img src="images/app_store.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!------------ dishes list ----------------------->
+         <script src="bbhotel.js"></script>
+       
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
