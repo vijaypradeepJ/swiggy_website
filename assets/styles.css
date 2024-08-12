@@ -13,15 +13,19 @@
 }
 .item a{
     text-decoration: none;
-    color: black;
+    color:gray;
     float:right;
     padding-left:70px;
     text-transform: capitalize;
     padding-top:20px;
 
 }
- .others{
-    color: blue;
+.item i{
+    color: gray;
+}
+ .others {
+    text-decoration: underline;
+    padding-right:10px;
 
     
 }
@@ -104,6 +108,9 @@
     border-radius:40px ;
     position: relative;
 }
+.container2 img:hover{
+    transform: scale(0.9);
+}
 .cards h2{
     text-transform: capitalize;
     font-size:larger;
@@ -177,6 +184,17 @@
     padding-left:40px;
     font-weight:lighter;
     color: gray;
+}
+.offers p{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size:x-large;
+
+
+}
+.offers{
+    position: absolute;
+    top:172%;
 }
 .cards span{
     color:white;
